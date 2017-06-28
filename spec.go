@@ -1008,6 +1008,14 @@ var EnvSpecs = []*EnvSpec{
 		Height:  480,
 		Options: "{}",
 	},
+
+	{
+		Name:    "CharCombo-v0",
+		BaseURL: "http://mapmeld.com/char-combo/ai/",
+		Width:   500,
+		Height:  700,
+		Options: "{\"mode\":\"time\"}",
+	},
 }
 
 // SpecForName finds the first entry in EnvSpecs with the

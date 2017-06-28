@@ -5138,5 +5138,29 @@
     "width": 320,
     "height": 480,
     "key_whitelist": []
+ },
+ {
+    "name": "CharCombo-v0",
+    "base": "http://mapmeld.com/char-combo/ai/",
+    "top_injections": [
+      "faketime.js",
+    ],
+    "bottom_injections": [
+      "utils.js",
+      "construct2.js",
+      "CharCombo-v0.js"
+    ],
+    "resources": [],
+    "processors": [
+      "CharCombo-v0"
+    ],
+    "metadata": {
+    },
+    "width": 500,
+    "height": 700,
+    "key_whitelist": [],
+    "options": {
+      "mode": "time"
+    }
   }
 ]
