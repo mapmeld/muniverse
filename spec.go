@@ -1014,7 +1014,7 @@ var EnvSpecs = []*EnvSpec{
 		BaseURL: "http://mapmeld.com/char-combo/ai/",
 		Width:   500,
 		Height:  700,
-		Options: "{\"mode\":\"time\"}",
+		Options: "{}",
 	},
 }
 

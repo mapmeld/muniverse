@@ -5144,6 +5144,7 @@
     "base": "http://mapmeld.com/char-combo/ai/",
     "top_injections": [
       "faketime.js",
+      "famobi.js"
     ],
     "bottom_injections": [
       "utils.js",
@@ -5152,9 +5153,11 @@
     ],
     "resources": [],
     "processors": [
-      "CharCombo-v0"
+      "CharCombo-v0",
+      "famobi"
     ],
     "metadata": {
+      "famobi_id": "charcombo"
     },
     "width": 500,
     "height": 700,
